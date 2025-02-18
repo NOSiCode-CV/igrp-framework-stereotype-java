@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cv.igrp.framework</groupId>
     <artifactId>stereotype</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-alpha</version>
     <packaging>jar</packaging>
     <name>igrp-stereotype</name>
     <description>Stereotype library for IGRP 3.0 Framework</description>
