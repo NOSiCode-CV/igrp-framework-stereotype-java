@@ -9,23 +9,11 @@
     <name>igrp-stereotype</name>
     <description>Stereotype library for IGRP 3.0 Framework</description>
     <url/>
+
     <scm>
         <url>http://git.nosi.cv/igrp-3_0/igrp-stereotype</url>
         <connection>scm:git:git.nosi.cv:igrp-3_0/igrp-stereotype.git</connection>
     </scm>
-
-    <distributionManagement>
-        <!--<repository>
-            <id>nexus-releases</id>
-            <name>Nexus Releases</name>
-            <url>http://nexus.example.com/repository/maven-releases/</url>
-        </repository>-->
-        <snapshotRepository>
-            <id>igrp-framework</id>
-            <name>IGRP Framework Snapshots</name>
-            <url>https://sonatype.nosi.cv/repository/igrp-framework/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <licenses>
         <license>
@@ -33,6 +21,7 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
         </license>
     </licenses>
+
     <developers>
         <developer>
             <id>nosi</id>
