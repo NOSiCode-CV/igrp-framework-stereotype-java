@@ -1,12 +1,16 @@
 package cv.igrp.framework.stereotype;
 
-import java.lang.annotation.*;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
- * Declares a permission constant to be automatically registered with
- * the Access Management system at build time.
+ * Marks a static field as an iGRP permission definition.
+ * Can be scanned by the PermissionSourceGenerator to auto-generate
+ * registry and constants.
  */
-@Target(ElementType.TYPE)
+@Target({ElementType.FIELD})
 @Retention(RetentionPolicy.SOURCE)
 public @interface IgrpPermission {
     String name();
